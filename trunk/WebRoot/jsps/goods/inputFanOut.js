@@ -13,6 +13,5 @@ function goodsFun(){
 			});
 		}
 
-function checkBox() {
-	$("[name=roles]:checkbox").attr("checked",$("#all").attr("checked")=="checked");
-}
+
+
