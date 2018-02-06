@@ -14,7 +14,7 @@ function calendarCheckHoliday (){
 	{
 		_dayElement.style.color = this.style.bodyHolidayFontColor;			  
 	}
-	_curDate = new Date(_year, _month, _day);
+	var _curDate = new Date(_year, _month, _day);
 	_dayElement.title =  _curDate.toFormatString("yyyy年mm月dd日");
 	_dayElement.value = _curDate.toFormatString("-");
 	_day++;

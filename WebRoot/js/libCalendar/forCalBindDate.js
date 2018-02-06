@@ -7,6 +7,7 @@
 function forCalBindDate(_startDay, _monthDays) {
 	document.writeln("<script type='text/javascript' src='calendarCheckHoliday.js'></script>");	
 
+	var i;
 	for(i = 0; i < 40; i++)
 	{	
 		var _dayElement = getObjById("cdrDay" + i);
