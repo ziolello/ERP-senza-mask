@@ -13,6 +13,7 @@ function callIntFun(){
 	document.writeln("<script type='text/javascript' src='pricesReplaceFun1.js'></script>");
 	document.writeln("<script type='text/javascript' src='pricesReplaceFun2.js'></script>");
 	document.writeln("<script type='text/javascript' src='supplierForFun.js'></script>");
+	document.writeln("<script type='text/javascript' src='addFunJquery.js'></script>");
 
 
 }
