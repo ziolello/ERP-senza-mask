@@ -19,12 +19,12 @@ function dragStart(evt){
 	var _target= evt.target || evt.srcElement;
 	if(_target.getAttribute("Author") == "alin_bar") 
 	{	   
-		dragObj = getObjById("Calendar");	   
-		mouseOffset = getMouseOffset(dragObj, evt);	 
+	var	dragObj = getObjById("Calendar");	   
+	var	mouseOffset = getMouseOffset(dragObj, evt);	 
 	}   
 }
 
 function dragEnd(evt)
 {
-	dragObj = null;    
+	var dragObj = null;    
 }

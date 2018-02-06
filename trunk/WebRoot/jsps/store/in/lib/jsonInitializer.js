@@ -4,7 +4,7 @@
  */
 
 function jsonInitializer (){
-	jsonParam ={};
+	var jsonParam ={};
 	//主单编号
 	var omUuid = 123;
 	jsonParam["odm.order.uuid"] = omUuid;

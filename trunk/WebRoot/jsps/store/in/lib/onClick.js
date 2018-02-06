@@ -15,8 +15,8 @@ function onClick(storeUuiArr, storeNameArr) {
 			
 			document.writeln("<script type='text/javascript' src='complementarOnClick.js'></script>");
 			var temp = complementar(storeUuiArr, storeNameArr);
-			$newTr = temp[0];
-			totalNum = temp[1];
+			var $newTr = temp[0];
+			var totalNum = temp[1];
 			document.writeln("<script type='text/javascript' src='finalOnClick.js'></script>");
 			finalOnClick($newTr, totalNum);
 		}

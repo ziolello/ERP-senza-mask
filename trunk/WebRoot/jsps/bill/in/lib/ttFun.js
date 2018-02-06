@@ -8,7 +8,7 @@ function ttFun(){
 	var tt = $(this).parent().parent();
 	$('.ajaxMsg').empty();
 	var tCodes = setHead(tt);
-	trHead = tCodes[0];
+	var trHead = tCodes[0];
 	tt = tCodes[1];
 	return tt, trHead;
 }

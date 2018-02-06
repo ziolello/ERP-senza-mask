@@ -5,7 +5,7 @@
  * @returns
  */
 function setTr(tr, tt){
-var sum = 0;
+var sum = 0, i;
 				for(i = 0;i<3;i++){
 					var $tr = $("<tr align='center' class='ajaxMsg'></tr>");
 					//共计5列
@@ -21,7 +21,7 @@ var sum = 0;
 					$tr.append($td5);
 					
 					$tt.after($tr);
-					$tt=$tr;
+					var $tt=$tr;
 					sum = sum + 100;
 				}
 				return [tr, tt];
