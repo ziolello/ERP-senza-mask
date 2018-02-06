@@ -5,7 +5,7 @@
 function messageFun(){
 	document.writeln("<script type='text/javascript' src='formFirst.js'></script>");
 
-	$nowTr = $(this).parent().parent();
+	var $nowTr = $(this).parent().parent();
 	
 	$(".ajaxMsg").remove();
 	

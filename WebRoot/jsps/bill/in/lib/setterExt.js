@@ -19,5 +19,5 @@ var jsonParam = {"bqm.goodsUuid":$(this).attr("value")};
 		
 		var tCodes2 = setTr(tr, tt);
 		var tr = tCodes2[0];
-		tt = tCodes2[1];
+		var tt = tCodes2[1];
 }

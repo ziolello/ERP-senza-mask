@@ -17,7 +17,7 @@ var $trHead = $("<tr align='center' class='ajaxMsg' style='background:url(images
 				var $td5 = $("<td>合计</td>");
 				$trHead.append($td5);
 				$tt.after($trHead);
-				$tt=$trHead;
+				var $tt=$trHead;
 				
 				return [trHead, tt];
 }

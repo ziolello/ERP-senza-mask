@@ -10,7 +10,7 @@ function ajOnClick(){
 			document.writeln("<script type='text/javascript' src='jsonInitializer.js'></script>");
 			document.writeln("<script type='text/javascript' src='jsonFinalizer.js'></script>");
 			document.writeln("<script type='text/javascript' src='upMyIni.js'></script>");
-			jsonParam =jsonInitializer();
+			var jsonParam =jsonInitializer();
 			jsonParam =jsonFinalizer();
 			//为ajax提交操作后的操作对象进行初始化
 			var temp = upMy();
