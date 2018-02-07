@@ -99,7 +99,7 @@
 			}
 			;
 		};
-
+<%--mask.jsp --%>
 		// 移除事件
 		var unbind = function(obj, type, fn) {
 			if (obj.detachEvent) {
@@ -127,7 +127,7 @@
 				top : Math.max(dd.scrollTop, db.scrollTop)
 			};
 		};
-
+<%--mask.jsp --%>
 		// 锁屏
 		var lock = {
 			show : function() {
@@ -196,7 +196,7 @@
 		</s:if>
 		*/
 </script>
-
+<%--mask.jsp --%>
 <div id="pageOverlay"></div>
 </div>
 <div id="context-msg" class="context-msg" id="context-msg">
