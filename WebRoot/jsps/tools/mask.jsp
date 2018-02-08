@@ -74,12 +74,14 @@
 <%-- Here starts the javascript call function --%>
 <script type="text/javascript" src="mask.js">
 </script>
-  <%-- page info --%>
+ <%-- page info --%>
 <div id="pageOverlay"></div>
-</div>
 <div id="context-msg" class="context-msg" id="context-msg">
+<%-- Here starts the javascript call function --%>
+
 	<div class="content-r-pic content-msg-size content-msg-top">
 	</div>
+	 <%-- page info --%>
 	<div class="content-text content-msg-size content-msg-sizeh content-msg-body">
 		<div id="context-msg-text" class="context-msg-txt">
 			临时消息文字内容，测试专用，看看宽度临时消息文字内容，测试专用，看看宽度临时消息文字内容，测试专用，看看宽度
@@ -87,11 +89,13 @@
 		<input id="hid-action" type="hidden" value=""/>
 		<div class="context-msg-btn">
 			<center>
+			<%-- Here is where the btn ok will be  --%>
 			<input id="btn_ok" type="image" src="../images/content_msg_btn_ok.jpg"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			<input id="btn_cancel" type="image" src="../images/content_msg_btn_cancel.jpg"/>
 			</center>
 		</div>
 	</div>
+	<%-- Here is the message of the button  --%>
 	<div class="content-bbg content-msg-size content-msg-bottom"></div>
 </div>
 <%-- end of mask.jsp --%>
